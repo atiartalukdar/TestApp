@@ -8,6 +8,7 @@ import com.example.testapp.model.UserModel
 import com.example.testapp.repository.Repository
 
 class MainViewModel : ViewModel() {
+
     private val _userId: MutableLiveData<String> = MutableLiveData()
 
     val user: LiveData<UserModel> = Transformations
